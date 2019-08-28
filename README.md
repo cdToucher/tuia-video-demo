@@ -83,18 +83,18 @@ MagicVideoView magicVideoView = new MagicVideoView(getApplication(),"userId","ap
 ```
 3.返回奖励信息   在onMagicRewarded方法中会返回上报的奖励信息，JSON字符串如下
 ```
-{
-	"finishType" : 1,
-	"orderId" : "168408070629",
-	"userId" : "123",
-	"timestamp" : "1566791113031",
-	"prizeFlag" : "XXX",
-	"appKey" : "4W8ReCvDm4fy3Fpn52MgPgUWmdfS",
-	"sign" : "5093659d6bf802d1a407df81d6aab9f9",
-	"score" : null,
-	"reason" : "-1",
-	"url" : null
-} 
+             {
+	           "finishType" : 1,
+	           "orderId" : "168408070629",
+	           "userId" : "123",
+	           "timestamp" : "1566791113031",
+	           "prizeFlag" : "XXX",
+	           "appKey" : "4W8ReCvDm4fy3Fpn52MgPgUWmdfS",
+	           "sign" : "5093659d6bf802d1a407df81d6aab9f9",
+	           "score" : null,
+	           "reason" : "-1",
+	           "url" : null
+             } 
 ```
 | 名称 | 类型 | 备注 |
 | :---------------------: | :---------------------: | :----------------------: |
